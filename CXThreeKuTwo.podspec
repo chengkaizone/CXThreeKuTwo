@@ -40,11 +40,12 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
+  # 配置文件要求只能用相对路径，不能用绝对路径
   s.vendored_frameworks = [
-  'SDKs/Ads-Mediation-CN/Ads-Mediation-CN/ABUAdSDK.framework']
+  '../SDKs/Ads-Mediation-CN/Ads-Mediation-CN/ABUAdSDK.framework']
   
   s.resource_bundles = [
-  'Currency.bundle'
+  '../SDKs/Currency.bundle'
   ]
   
   # 依赖的三方 SDK

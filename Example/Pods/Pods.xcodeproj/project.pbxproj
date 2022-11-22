@@ -13,7 +13,7 @@
 		72661CA257E94A27AE46E988441BE975 /* CXThreeKuTwo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5331F9081F452E600987D71751E8B0CE /* CXThreeKuTwo-dummy.m */; };
 		8382A51EC6B257F8AFED2DF01C6E3FD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		84B4A321DF02C2B19F1538A51A2B12AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9497BB7E58D9CDF6294CE4DA6A669AEA /* CXThreeKuTwo-Currency.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 69B980B40D1695ADF40AFAFC78DE1667 /* CXThreeKuTwo-Currency.bundle */; };
+		9497BB7E58D9CDF6294CE4DA6A669AEA /* Currency.bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 69B980B40D1695ADF40AFAFC78DE1667 /* Currency.bundle.bundle */; };
 		BB5EAE255327489FB72804C39C06F999 /* Pods-CXThreeKuTwo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4263A01AED3091C509AB5FC21834D9D8 /* Pods-CXThreeKuTwo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0DC88789C75241F1F2FB7A9DD1DD7D5 /* CXThreeKuTwo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8856FACF60E41991C8FD4723862F876A /* CXThreeKuTwo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA9A72DC292CED5B00A42B4D /* TestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9A72DA292CED5B00A42B4D /* TestObject.swift */; };
@@ -53,7 +53,7 @@
 		137365783D437488896780E88E4B915D /* Pods-CXThreeKuTwo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CXThreeKuTwo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		157BEE9BE54BF72C2AFFF02CC4BF1A2C /* Pods-CXThreeKuTwo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXThreeKuTwo_Example-Info.plist"; sourceTree = "<group>"; };
 		233D6CFB61781C860BD49F3B6590987C /* CXThreeKuTwo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CXThreeKuTwo-Info.plist"; sourceTree = "<group>"; };
-		248666B326C25FB7CAE871AABA403B61 /* Pods-CXThreeKuTwo_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CXThreeKuTwo_Example"; path = Pods_CXThreeKuTwo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		248666B326C25FB7CAE871AABA403B61 /* Pods_CXThreeKuTwo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXThreeKuTwo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C14ABBCCA9112079BBC9936099236B1 /* Pods-CXThreeKuTwo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CXThreeKuTwo_Tests-dummy.m"; sourceTree = "<group>"; };
 		35A0D8E141721851B8A342048846FA13 /* CXThreeKuTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CXThreeKuTwo.debug.xcconfig; sourceTree = "<group>"; };
 		383C3C6C35EB8CD9CC04D1E8A131F3AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -64,10 +64,10 @@
 		55D57A34D0BEC270C64493F9ABC65A14 /* ResourceBundle-Currency.bundle-CXThreeKuTwo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Currency.bundle-CXThreeKuTwo-Info.plist"; sourceTree = "<group>"; };
 		573708D6115C4B95B4EB1C61CA23C14F /* Pods-CXThreeKuTwo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CXThreeKuTwo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5988C14BDDA5DCC182B858928FC1B247 /* Pods-CXThreeKuTwo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CXThreeKuTwo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		59E86674EED8EB2B6CBFEA5430641882 /* CXThreeKuTwo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CXThreeKuTwo; path = CXThreeKuTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E86674EED8EB2B6CBFEA5430641882 /* CXThreeKuTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CXThreeKuTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E266659526C2B86F00A27017FC0EC5D /* CXThreeKuTwo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CXThreeKuTwo.modulemap; sourceTree = "<group>"; };
 		5F54B03107D3F4A659D6F8BA66A08C2A /* Pods-CXThreeKuTwo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXThreeKuTwo_Tests-Info.plist"; sourceTree = "<group>"; };
-		69B980B40D1695ADF40AFAFC78DE1667 /* CXThreeKuTwo-Currency.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "CXThreeKuTwo-Currency.bundle"; path = Currency.bundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B980B40D1695ADF40AFAFC78DE1667 /* Currency.bundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Currency.bundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7F8552376B242C8668E5BAA67E353CA8 /* Pods-CXThreeKuTwo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXThreeKuTwo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		83ECD61D152D2AD66B340DDBD3CD20D5 /* CXThreeKuTwo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CXThreeKuTwo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -75,7 +75,7 @@
 		8856FACF60E41991C8FD4723862F876A /* CXThreeKuTwo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CXThreeKuTwo-umbrella.h"; sourceTree = "<group>"; };
 		947E9BD0D7F1E3D4985BF468FC2B4506 /* Pods-CXThreeKuTwo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXThreeKuTwo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; };
-		B639610257D3FCBBE5E2BA8EF7D0BDDE /* Pods-CXThreeKuTwo_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CXThreeKuTwo_Tests"; path = Pods_CXThreeKuTwo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B639610257D3FCBBE5E2BA8EF7D0BDDE /* Pods_CXThreeKuTwo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXThreeKuTwo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1BE7AAFAE749C3AEBB6256A0402F514 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D7C0321247AAAA91746894EF74B860C4 /* Pods-CXThreeKuTwo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CXThreeKuTwo_Tests.modulemap"; sourceTree = "<group>"; };
 		E160606EA7B9F31E2BAC6713A12995EB /* CXThreeKuTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CXThreeKuTwo.release.xcconfig; sourceTree = "<group>"; };
@@ -192,10 +192,10 @@
 		C096521F859073C3055A6E693B4336EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				59E86674EED8EB2B6CBFEA5430641882 /* CXThreeKuTwo */,
-				69B980B40D1695ADF40AFAFC78DE1667 /* CXThreeKuTwo-Currency.bundle */,
-				248666B326C25FB7CAE871AABA403B61 /* Pods-CXThreeKuTwo_Example */,
-				B639610257D3FCBBE5E2BA8EF7D0BDDE /* Pods-CXThreeKuTwo_Tests */,
+				59E86674EED8EB2B6CBFEA5430641882 /* CXThreeKuTwo.framework */,
+				69B980B40D1695ADF40AFAFC78DE1667 /* Currency.bundle.bundle */,
+				248666B326C25FB7CAE871AABA403B61 /* Pods_CXThreeKuTwo_Example.framework */,
+				B639610257D3FCBBE5E2BA8EF7D0BDDE /* Pods_CXThreeKuTwo_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -310,7 +310,7 @@
 			);
 			name = "Pods-CXThreeKuTwo_Example";
 			productName = Pods_CXThreeKuTwo_Example;
-			productReference = 248666B326C25FB7CAE871AABA403B61 /* Pods-CXThreeKuTwo_Example */;
+			productReference = 248666B326C25FB7CAE871AABA403B61 /* Pods_CXThreeKuTwo_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2413AB2CE980B0D3137E9B74AC990AC8 /* CXThreeKuTwo */ = {
@@ -329,7 +329,7 @@
 			);
 			name = CXThreeKuTwo;
 			productName = CXThreeKuTwo;
-			productReference = 59E86674EED8EB2B6CBFEA5430641882 /* CXThreeKuTwo */;
+			productReference = 59E86674EED8EB2B6CBFEA5430641882 /* CXThreeKuTwo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B26C3F8533138BECA695A957250E4C8F /* Pods-CXThreeKuTwo_Tests */ = {
@@ -348,7 +348,7 @@
 			);
 			name = "Pods-CXThreeKuTwo_Tests";
 			productName = Pods_CXThreeKuTwo_Tests;
-			productReference = B639610257D3FCBBE5E2BA8EF7D0BDDE /* Pods-CXThreeKuTwo_Tests */;
+			productReference = B639610257D3FCBBE5E2BA8EF7D0BDDE /* Pods_CXThreeKuTwo_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B8E0C04D7A33A610284CCAB551EA6BA6 /* CXThreeKuTwo-Currency.bundle */ = {
@@ -365,7 +365,7 @@
 			);
 			name = "CXThreeKuTwo-Currency.bundle";
 			productName = Currency.bundle;
-			productReference = 69B980B40D1695ADF40AFAFC78DE1667 /* CXThreeKuTwo-Currency.bundle */;
+			productReference = 69B980B40D1695ADF40AFAFC78DE1667 /* Currency.bundle.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -410,7 +410,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9497BB7E58D9CDF6294CE4DA6A669AEA /* CXThreeKuTwo-Currency.bundle in Resources */,
+				9497BB7E58D9CDF6294CE4DA6A669AEA /* Currency.bundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,9 +20,9 @@
   },
   "source_files": "CXThreeKuTwo/Classes/**/*",
   "vendored_frameworks": [
-    "SDKs/Ads-Mediation-CN/Ads-Mediation-CN/ABUAdSDK.framework"
+    "../SDKs/Ads-Mediation-CN/Ads-Mediation-CN/ABUAdSDK.framework"
   ],
   "resource_bundles": [
-    "Currency.bundle"
+    "../SDKs/Currency.bundle"
   ]
 }

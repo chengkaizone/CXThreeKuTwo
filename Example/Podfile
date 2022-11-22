@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CXThreeKuTwo_Example' do
+  pod 'CXThreeKuTwo', :path => '../'
+
+  target 'CXThreeKuTwo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

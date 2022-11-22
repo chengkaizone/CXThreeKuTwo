@@ -42,10 +42,10 @@ TODO: Add long description of the pod here.
   
   # 配置文件要求只能用相对路径，不能用绝对路径
   s.vendored_frameworks = [
-  '../SDKs/Ads-Mediation-CN/Ads-Mediation-CN/ABUAdSDK.framework']
+  'SDKs/ABUAdSDK.framework']
   
   s.resource_bundles = [
-  '../SDKs/Currency.bundle'
+  #'SDKs/Currency.bundle'
   ]
   
   # 依赖的三方 SDK

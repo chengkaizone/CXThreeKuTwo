@@ -8,80 +8,70 @@
 
 /* Begin PBXBuildFile section */
 		23A6EA1A0B7AB66CA06023CDDCD00A1F /* Pods-CXThreeKuTwo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F961EFAF89B514AB9D72F63959C46721 /* Pods-CXThreeKuTwo_Example-dummy.m */; };
+		2F0CCC9D91157613BF3FDD3A6DE9E488 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2F5B44FFCACE013D0E8D4A064F06FA39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		317D295866A9B785DC7E0E3BD9D0F155 /* TestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B3840FB5EB5B30DDAC202C4754D0D /* TestObject.swift */; };
+		321A7D26A5C3D143D039E0741E97B1B3 /* CXThreeKuTwo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C78EE8D0E895AE987BEE2226E41AB /* CXThreeKuTwo-dummy.m */; };
 		5CC60FA16B4B27C1D0CCEC5F08B30D74 /* Pods-CXThreeKuTwo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DCFA0694B87E02743CF69EA95A09616 /* Pods-CXThreeKuTwo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72661CA257E94A27AE46E988441BE975 /* CXThreeKuTwo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5331F9081F452E600987D71751E8B0CE /* CXThreeKuTwo-dummy.m */; };
-		8382A51EC6B257F8AFED2DF01C6E3FD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		61C077ADC64923B6CCDC5F8A468273E1 /* TestObject2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C42DEED670D868EB521357E46AC0A4F /* TestObject2.swift */; };
+		64FA5EAFAE48122FFFC8CB889DE7CC47 /* CXThreeKuTwo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5DA41918EF68BE72E3785758403B8A /* CXThreeKuTwo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84B4A321DF02C2B19F1538A51A2B12AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9497BB7E58D9CDF6294CE4DA6A669AEA /* Currency.bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 69B980B40D1695ADF40AFAFC78DE1667 /* Currency.bundle.bundle */; };
 		BB5EAE255327489FB72804C39C06F999 /* Pods-CXThreeKuTwo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4263A01AED3091C509AB5FC21834D9D8 /* Pods-CXThreeKuTwo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0DC88789C75241F1F2FB7A9DD1DD7D5 /* CXThreeKuTwo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8856FACF60E41991C8FD4723862F876A /* CXThreeKuTwo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA9A72DC292CED5B00A42B4D /* TestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9A72DA292CED5B00A42B4D /* TestObject.swift */; };
-		EA9A72DE292CED9400A42B4D /* TestObject2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9A72DD292CED9400A42B4D /* TestObject2.swift */; };
 		EF60B57F1524C42A2A997DA9AE47A6EE /* Pods-CXThreeKuTwo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C14ABBCCA9112079BBC9936099236B1 /* Pods-CXThreeKuTwo_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0AC94926DD96FD1E3FBEEC09042059F2 /* PBXContainerItemProxy */ = {
+		31E3349F0BA57B71C96CFA4DD01F2E15 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2413AB2CE980B0D3137E9B74AC990AC8;
 			remoteInfo = CXThreeKuTwo;
 		};
-		97CC9B25563E594471FC5E9C542AD4F0 /* PBXContainerItemProxy */ = {
+		77D337C0B0DE3D87A8636424861D90C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0415FB6A41B9D4466AF8721D5B9ACBF3;
 			remoteInfo = "Pods-CXThreeKuTwo_Example";
 		};
-		C553144F7D1E8FE13593683FBE7473A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B8E0C04D7A33A610284CCAB551EA6BA6;
-			remoteInfo = "CXThreeKuTwo-Currency.bundle";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0496879D45AAF5888758B3816D68E256 /* Pods-CXThreeKuTwo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CXThreeKuTwo_Example.modulemap"; sourceTree = "<group>"; };
-		049F15E6897100C430C9B02BC92BE533 /* CXThreeKuTwo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CXThreeKuTwo-prefix.pch"; sourceTree = "<group>"; };
 		05E9FF80C0E4BA7B3E766C6A9444C454 /* Pods-CXThreeKuTwo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXThreeKuTwo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		08A131BE369E16D8351F00C0A710D69B /* CXThreeKuTwo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CXThreeKuTwo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0B0C78EE8D0E895AE987BEE2226E41AB /* CXThreeKuTwo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CXThreeKuTwo-dummy.m"; sourceTree = "<group>"; };
 		0DCFA0694B87E02743CF69EA95A09616 /* Pods-CXThreeKuTwo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CXThreeKuTwo_Example-umbrella.h"; sourceTree = "<group>"; };
 		137365783D437488896780E88E4B915D /* Pods-CXThreeKuTwo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CXThreeKuTwo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		157BEE9BE54BF72C2AFFF02CC4BF1A2C /* Pods-CXThreeKuTwo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXThreeKuTwo_Example-Info.plist"; sourceTree = "<group>"; };
-		233D6CFB61781C860BD49F3B6590987C /* CXThreeKuTwo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CXThreeKuTwo-Info.plist"; sourceTree = "<group>"; };
-		248666B326C25FB7CAE871AABA403B61 /* Pods_CXThreeKuTwo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXThreeKuTwo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		248666B326C25FB7CAE871AABA403B61 /* Pods-CXThreeKuTwo_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CXThreeKuTwo_Example"; path = Pods_CXThreeKuTwo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C14ABBCCA9112079BBC9936099236B1 /* Pods-CXThreeKuTwo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CXThreeKuTwo_Tests-dummy.m"; sourceTree = "<group>"; };
-		35A0D8E141721851B8A342048846FA13 /* CXThreeKuTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CXThreeKuTwo.debug.xcconfig; sourceTree = "<group>"; };
-		383C3C6C35EB8CD9CC04D1E8A131F3AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4263A01AED3091C509AB5FC21834D9D8 /* Pods-CXThreeKuTwo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CXThreeKuTwo_Tests-umbrella.h"; sourceTree = "<group>"; };
 		43C6CCE05DD22A9D34E3B43D69F15AA1 /* Pods-CXThreeKuTwo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXThreeKuTwo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4BC7F5402E227F1912B13AAA5BCD002F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4DCF4FEA6B3DE7414DF0FBE43998D519 /* Pods-CXThreeKuTwo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXThreeKuTwo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5331F9081F452E600987D71751E8B0CE /* CXThreeKuTwo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CXThreeKuTwo-dummy.m"; sourceTree = "<group>"; };
-		55D57A34D0BEC270C64493F9ABC65A14 /* ResourceBundle-Currency.bundle-CXThreeKuTwo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Currency.bundle-CXThreeKuTwo-Info.plist"; sourceTree = "<group>"; };
 		573708D6115C4B95B4EB1C61CA23C14F /* Pods-CXThreeKuTwo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CXThreeKuTwo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5988C14BDDA5DCC182B858928FC1B247 /* Pods-CXThreeKuTwo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CXThreeKuTwo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		59E86674EED8EB2B6CBFEA5430641882 /* CXThreeKuTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CXThreeKuTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E266659526C2B86F00A27017FC0EC5D /* CXThreeKuTwo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CXThreeKuTwo.modulemap; sourceTree = "<group>"; };
+		59E86674EED8EB2B6CBFEA5430641882 /* CXThreeKuTwo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CXThreeKuTwo; path = CXThreeKuTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C42DEED670D868EB521357E46AC0A4F /* TestObject2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestObject2.swift; path = CXThreeKuTwo/Classes/TestObject2.swift; sourceTree = "<group>"; };
 		5F54B03107D3F4A659D6F8BA66A08C2A /* Pods-CXThreeKuTwo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXThreeKuTwo_Tests-Info.plist"; sourceTree = "<group>"; };
-		69B980B40D1695ADF40AFAFC78DE1667 /* Currency.bundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Currency.bundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		758B3840FB5EB5B30DDAC202C4754D0D /* TestObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestObject.swift; path = CXThreeKuTwo/Classes/TestObject.swift; sourceTree = "<group>"; };
 		7F8552376B242C8668E5BAA67E353CA8 /* Pods-CXThreeKuTwo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXThreeKuTwo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		83ECD61D152D2AD66B340DDBD3CD20D5 /* CXThreeKuTwo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CXThreeKuTwo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8635A4E59BA661CCD9E874C9D22AFBBB /* ABUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ABUAdSDK.framework; path = "SDKs/Ads-Mediation-CN/Ads-Mediation-CN/ABUAdSDK.framework"; sourceTree = "<group>"; };
-		8856FACF60E41991C8FD4723862F876A /* CXThreeKuTwo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CXThreeKuTwo-umbrella.h"; sourceTree = "<group>"; };
+		7FAEAA622EDE2A56AFEB3023F5BD5ED2 /* CXThreeKuTwo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CXThreeKuTwo-prefix.pch"; sourceTree = "<group>"; };
 		947E9BD0D7F1E3D4985BF468FC2B4506 /* Pods-CXThreeKuTwo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXThreeKuTwo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; };
-		B639610257D3FCBBE5E2BA8EF7D0BDDE /* Pods_CXThreeKuTwo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXThreeKuTwo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1BE7AAFAE749C3AEBB6256A0402F514 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A418C021EB103CB6959F913BB4D8532F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B639610257D3FCBBE5E2BA8EF7D0BDDE /* Pods-CXThreeKuTwo_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CXThreeKuTwo_Tests"; path = Pods_CXThreeKuTwo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8048B5C62CD5E93DFED4D957475B42 /* CXThreeKuTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CXThreeKuTwo.release.xcconfig; sourceTree = "<group>"; };
+		C426800D23B26416588E0D1C408C6D2B /* ABUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ABUAdSDK.framework; path = SDKs/ABUAdSDK.framework; sourceTree = "<group>"; };
+		C55531EBD33D329287558CD1A9A5F9F3 /* CXThreeKuTwo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CXThreeKuTwo.modulemap; sourceTree = "<group>"; };
+		CCA89D85BACE48A7C6AA2FE1EEAA36D3 /* CXThreeKuTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CXThreeKuTwo.debug.xcconfig; sourceTree = "<group>"; };
+		CDD1461A9014CC767BEE01D241900FC3 /* CXThreeKuTwo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CXThreeKuTwo-Info.plist"; sourceTree = "<group>"; };
 		D7C0321247AAAA91746894EF74B860C4 /* Pods-CXThreeKuTwo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CXThreeKuTwo_Tests.modulemap"; sourceTree = "<group>"; };
-		E160606EA7B9F31E2BAC6713A12995EB /* CXThreeKuTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CXThreeKuTwo.release.xcconfig; sourceTree = "<group>"; };
+		DB5DA41918EF68BE72E3785758403B8A /* CXThreeKuTwo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CXThreeKuTwo-umbrella.h"; sourceTree = "<group>"; };
 		E953DBD36E41EB08B5803E976EBA7583 /* Pods-CXThreeKuTwo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXThreeKuTwo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EA9A72DA292CED5B00A42B4D /* TestObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestObject.swift; sourceTree = "<group>"; };
-		EA9A72DD292CED9400A42B4D /* TestObject2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObject2.swift; sourceTree = "<group>"; };
 		F961EFAF89B514AB9D72F63959C46721 /* Pods-CXThreeKuTwo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CXThreeKuTwo_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,18 +84,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B7ADD62E923B41E4B757027FF537094 /* Frameworks */ = {
+		5F98385FB21D62D1A3AE3FF409105400 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8382A51EC6B257F8AFED2DF01C6E3FD1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		36F9495AECDF7969D465BD51D537B5B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2F0CCC9D91157613BF3FDD3A6DE9E488 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,12 +103,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B00D5021C0610A83DDDC7F6A505C0B6 /* CXThreeKuTwo */ = {
+			isa = PBXGroup;
+			children = (
+				758B3840FB5EB5B30DDAC202C4754D0D /* TestObject.swift */,
+				5C42DEED670D868EB521357E46AC0A4F /* TestObject2.swift */,
+				FC68A7A920FE308F275D714BF3933F70 /* Frameworks */,
+				DC09DA120FF10F622689530A973853CD /* Pod */,
+				5EA876B7431CE892DC6289F3EB6AC1C6 /* Support Files */,
+			);
+			name = CXThreeKuTwo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		5EA876B7431CE892DC6289F3EB6AC1C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C55531EBD33D329287558CD1A9A5F9F3 /* CXThreeKuTwo.modulemap */,
+				0B0C78EE8D0E895AE987BEE2226E41AB /* CXThreeKuTwo-dummy.m */,
+				CDD1461A9014CC767BEE01D241900FC3 /* CXThreeKuTwo-Info.plist */,
+				7FAEAA622EDE2A56AFEB3023F5BD5ED2 /* CXThreeKuTwo-prefix.pch */,
+				DB5DA41918EF68BE72E3785758403B8A /* CXThreeKuTwo-umbrella.h */,
+				CCA89D85BACE48A7C6AA2FE1EEAA36D3 /* CXThreeKuTwo.debug.xcconfig */,
+				BA8048B5C62CD5E93DFED4D957475B42 /* CXThreeKuTwo.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CXThreeKuTwo";
+			sourceTree = "<group>";
+		};
+		72D5E55E197F217435B1E042EBD510B1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B00D5021C0610A83DDDC7F6A505C0B6 /* CXThreeKuTwo */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		77F54EB8DDB3DE9D05639C85EF26B8FF /* Targets Support Files */ = {
@@ -135,42 +154,6 @@
 				A92C9E1C97AC0794AF621540F7845E3C /* Pods-CXThreeKuTwo_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		816D9D3FAE2D42BCB8DA0B5F08BD4F0E /* CXThreeKuTwo */ = {
-			isa = PBXGroup;
-			children = (
-				EA9A72D8292CED5B00A42B4D /* Classes */,
-				C7B80536CF8D9EF2314220C409E68651 /* Frameworks */,
-				F387B67B67ED0C0FA2DD44D46C3B7158 /* Pod */,
-				946A234FE631D6E92562D557ABD17FDD /* Support Files */,
-			);
-			name = CXThreeKuTwo;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		904589ACFBED36EDB1F12203BC11F11C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				816D9D3FAE2D42BCB8DA0B5F08BD4F0E /* CXThreeKuTwo */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		946A234FE631D6E92562D557ABD17FDD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5E266659526C2B86F00A27017FC0EC5D /* CXThreeKuTwo.modulemap */,
-				5331F9081F452E600987D71751E8B0CE /* CXThreeKuTwo-dummy.m */,
-				233D6CFB61781C860BD49F3B6590987C /* CXThreeKuTwo-Info.plist */,
-				049F15E6897100C430C9B02BC92BE533 /* CXThreeKuTwo-prefix.pch */,
-				8856FACF60E41991C8FD4723862F876A /* CXThreeKuTwo-umbrella.h */,
-				35A0D8E141721851B8A342048846FA13 /* CXThreeKuTwo.debug.xcconfig */,
-				E160606EA7B9F31E2BAC6713A12995EB /* CXThreeKuTwo.release.xcconfig */,
-				55D57A34D0BEC270C64493F9ABC65A14 /* ResourceBundle-Currency.bundle-CXThreeKuTwo-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CXThreeKuTwo";
 			sourceTree = "<group>";
 		};
 		A92C9E1C97AC0794AF621540F7845E3C /* Pods-CXThreeKuTwo_Tests */ = {
@@ -189,32 +172,13 @@
 			path = "Target Support Files/Pods-CXThreeKuTwo_Tests";
 			sourceTree = "<group>";
 		};
-		C096521F859073C3055A6E693B4336EA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				59E86674EED8EB2B6CBFEA5430641882 /* CXThreeKuTwo.framework */,
-				69B980B40D1695ADF40AFAFC78DE1667 /* Currency.bundle.bundle */,
-				248666B326C25FB7CAE871AABA403B61 /* Pods_CXThreeKuTwo_Example.framework */,
-				B639610257D3FCBBE5E2BA8EF7D0BDDE /* Pods_CXThreeKuTwo_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C7B80536CF8D9EF2314220C409E68651 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8635A4E59BA661CCD9E874C9D22AFBBB /* ABUAdSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				904589ACFBED36EDB1F12203BC11F11C /* Development Pods */,
+				72D5E55E197F217435B1E042EBD510B1 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				C096521F859073C3055A6E693B4336EA /* Products */,
+				D8041971261170E700DD7005F72A8E15 /* Products */,
 				77F54EB8DDB3DE9D05639C85EF26B8FF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -227,14 +191,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EA9A72D8292CED5B00A42B4D /* Classes */ = {
+		D8041971261170E700DD7005F72A8E15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA9A72DA292CED5B00A42B4D /* TestObject.swift */,
-				EA9A72DD292CED9400A42B4D /* TestObject2.swift */,
+				59E86674EED8EB2B6CBFEA5430641882 /* CXThreeKuTwo */,
+				248666B326C25FB7CAE871AABA403B61 /* Pods-CXThreeKuTwo_Example */,
+				B639610257D3FCBBE5E2BA8EF7D0BDDE /* Pods-CXThreeKuTwo_Tests */,
 			);
-			name = Classes;
-			path = CXThreeKuTwo/Classes;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC09DA120FF10F622689530A973853CD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				08A131BE369E16D8351F00C0A710D69B /* CXThreeKuTwo.podspec */,
+				A418C021EB103CB6959F913BB4D8532F /* LICENSE */,
+				4BC7F5402E227F1912B13AAA5BCD002F /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		F180D24B2454863E60248B8E5DCEE4D6 /* Pods-CXThreeKuTwo_Example */ = {
@@ -254,32 +228,30 @@
 			path = "Target Support Files/Pods-CXThreeKuTwo_Example";
 			sourceTree = "<group>";
 		};
-		F387B67B67ED0C0FA2DD44D46C3B7158 /* Pod */ = {
+		FC68A7A920FE308F275D714BF3933F70 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				83ECD61D152D2AD66B340DDBD3CD20D5 /* CXThreeKuTwo.podspec */,
-				383C3C6C35EB8CD9CC04D1E8A131F3AF /* LICENSE */,
-				C1BE7AAFAE749C3AEBB6256A0402F514 /* README.md */,
+				C426800D23B26416588E0D1C408C6D2B /* ABUAdSDK.framework */,
 			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1788D650BECC5BCFFC74610ACA983D5E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C0DC88789C75241F1F2FB7A9DD1DD7D5 /* CXThreeKuTwo-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		461AEA6BA2DBF39C7E7355C5B2D9627A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BB5EAE255327489FB72804C39C06F999 /* Pods-CXThreeKuTwo_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		727965266CECD67334C9C21D5C85D873 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FA5EAFAE48122FFFC8CB889DE7CC47 /* CXThreeKuTwo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,30 +278,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				D942DCFF4651C9CB50766D8E4D19982F /* PBXTargetDependency */,
+				AD3558B2CF71C2DE677EFEA457D780C3 /* PBXTargetDependency */,
 			);
 			name = "Pods-CXThreeKuTwo_Example";
 			productName = Pods_CXThreeKuTwo_Example;
-			productReference = 248666B326C25FB7CAE871AABA403B61 /* Pods_CXThreeKuTwo_Example.framework */;
+			productReference = 248666B326C25FB7CAE871AABA403B61 /* Pods-CXThreeKuTwo_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		2413AB2CE980B0D3137E9B74AC990AC8 /* CXThreeKuTwo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F8CE8D67D85FABC49197EA1A93A9943 /* Build configuration list for PBXNativeTarget "CXThreeKuTwo" */;
+			buildConfigurationList = 0AB9B441E324DFD2C9F19FA795CF0396 /* Build configuration list for PBXNativeTarget "CXThreeKuTwo" */;
 			buildPhases = (
-				1788D650BECC5BCFFC74610ACA983D5E /* Headers */,
-				3FE48459A432FB3707E7113611B37853 /* Sources */,
-				1B7ADD62E923B41E4B757027FF537094 /* Frameworks */,
-				7E375566C4F788C2833D73CE8A8EDFA2 /* Resources */,
+				727965266CECD67334C9C21D5C85D873 /* Headers */,
+				9AAEA67DBAABE6D3673F92D5FA6DA157 /* Sources */,
+				5F98385FB21D62D1A3AE3FF409105400 /* Frameworks */,
+				576A9903F3673BE1F46D88407B93EF21 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6AC9F256C604A4A7FC6E0B7140FA935C /* PBXTargetDependency */,
 			);
 			name = CXThreeKuTwo;
 			productName = CXThreeKuTwo;
-			productReference = 59E86674EED8EB2B6CBFEA5430641882 /* CXThreeKuTwo.framework */;
+			productReference = 59E86674EED8EB2B6CBFEA5430641882 /* CXThreeKuTwo */;
 			productType = "com.apple.product-type.framework";
 		};
 		B26C3F8533138BECA695A957250E4C8F /* Pods-CXThreeKuTwo_Tests */ = {
@@ -344,29 +315,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				D5979C6BE023994A0604ECB9FA1A1DFD /* PBXTargetDependency */,
+				99155474AE03FDBA9E876B92A0E06B84 /* PBXTargetDependency */,
 			);
 			name = "Pods-CXThreeKuTwo_Tests";
 			productName = Pods_CXThreeKuTwo_Tests;
-			productReference = B639610257D3FCBBE5E2BA8EF7D0BDDE /* Pods_CXThreeKuTwo_Tests.framework */;
+			productReference = B639610257D3FCBBE5E2BA8EF7D0BDDE /* Pods-CXThreeKuTwo_Tests */;
 			productType = "com.apple.product-type.framework";
-		};
-		B8E0C04D7A33A610284CCAB551EA6BA6 /* CXThreeKuTwo-Currency.bundle */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2C805F1818FC451E281FF8AB9CCB6E1A /* Build configuration list for PBXNativeTarget "CXThreeKuTwo-Currency.bundle" */;
-			buildPhases = (
-				F9625006C8DF6D9AA49343C0D5FC5BE2 /* Sources */,
-				36F9495AECDF7969D465BD51D537B5B6 /* Frameworks */,
-				4DEF9D03009E934A248CBBE5510B6465 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "CXThreeKuTwo-Currency.bundle";
-			productName = Currency.bundle;
-			productReference = 69B980B40D1695ADF40AFAFC78DE1667 /* Currency.bundle.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -386,12 +340,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C096521F859073C3055A6E693B4336EA /* Products */;
+			productRefGroup = D8041971261170E700DD7005F72A8E15 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2413AB2CE980B0D3137E9B74AC990AC8 /* CXThreeKuTwo */,
-				B8E0C04D7A33A610284CCAB551EA6BA6 /* CXThreeKuTwo-Currency.bundle */,
 				0415FB6A41B9D4466AF8721D5B9ACBF3 /* Pods-CXThreeKuTwo_Example */,
 				B26C3F8533138BECA695A957250E4C8F /* Pods-CXThreeKuTwo_Tests */,
 			);
@@ -399,18 +352,10 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4DEF9D03009E934A248CBBE5510B6465 /* Resources */ = {
+		576A9903F3673BE1F46D88407B93EF21 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E375566C4F788C2833D73CE8A8EDFA2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9497BB7E58D9CDF6294CE4DA6A669AEA /* Currency.bundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,13 +384,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FE48459A432FB3707E7113611B37853 /* Sources */ = {
+		9AAEA67DBAABE6D3673F92D5FA6DA157 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA9A72DC292CED5B00A42B4D /* TestObject.swift in Sources */,
-				EA9A72DE292CED9400A42B4D /* TestObject2.swift in Sources */,
-				72661CA257E94A27AE46E988441BE975 /* CXThreeKuTwo-dummy.m in Sources */,
+				321A7D26A5C3D143D039E0741E97B1B3 /* CXThreeKuTwo-dummy.m in Sources */,
+				317D295866A9B785DC7E0E3BD9D0F155 /* TestObject.swift in Sources */,
+				61C077ADC64923B6CCDC5F8A468273E1 /* TestObject2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,33 +402,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9625006C8DF6D9AA49343C0D5FC5BE2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6AC9F256C604A4A7FC6E0B7140FA935C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "CXThreeKuTwo-Currency.bundle";
-			target = B8E0C04D7A33A610284CCAB551EA6BA6 /* CXThreeKuTwo-Currency.bundle */;
-			targetProxy = C553144F7D1E8FE13593683FBE7473A8 /* PBXContainerItemProxy */;
-		};
-		D5979C6BE023994A0604ECB9FA1A1DFD /* PBXTargetDependency */ = {
+		99155474AE03FDBA9E876B92A0E06B84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CXThreeKuTwo_Example";
 			target = 0415FB6A41B9D4466AF8721D5B9ACBF3 /* Pods-CXThreeKuTwo_Example */;
-			targetProxy = 97CC9B25563E594471FC5E9C542AD4F0 /* PBXContainerItemProxy */;
+			targetProxy = 77D337C0B0DE3D87A8636424861D90C0 /* PBXContainerItemProxy */;
 		};
-		D942DCFF4651C9CB50766D8E4D19982F /* PBXTargetDependency */ = {
+		AD3558B2CF71C2DE677EFEA457D780C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CXThreeKuTwo;
 			target = 2413AB2CE980B0D3137E9B74AC990AC8 /* CXThreeKuTwo */;
-			targetProxy = 0AC94926DD96FD1E3FBEEC09042059F2 /* PBXContainerItemProxy */;
+			targetProxy = 31E3349F0BA57B71C96CFA4DD01F2E15 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -644,31 +576,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		7836862A0B2AA067410CEEC63EAF2128 /* Release */ = {
+		70EDA00AE4A32012D74BA08EB17C8569 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E160606EA7B9F31E2BAC6713A12995EB /* CXThreeKuTwo.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CXThreeKuTwo";
-				IBSC_MODULE = CXThreeKuTwo;
-				INFOPLIST_FILE = "Target Support Files/CXThreeKuTwo/ResourceBundle-Currency.bundle-CXThreeKuTwo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = Currency.bundle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		C863D145FFE218B9112D8C6BCC2EF7F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E160606EA7B9F31E2BAC6713A12995EB /* CXThreeKuTwo.release.xcconfig */;
+			baseConfigurationReference = BA8048B5C62CD5E93DFED4D957475B42 /* CXThreeKuTwo.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -698,6 +615,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		D11B712D595EA6B8B810E05340D92B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCA89D85BACE48A7C6AA2FE1EEAA36D3 /* CXThreeKuTwo.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CXThreeKuTwo/CXThreeKuTwo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CXThreeKuTwo/CXThreeKuTwo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CXThreeKuTwo/CXThreeKuTwo.modulemap";
+				PRODUCT_MODULE_NAME = CXThreeKuTwo;
+				PRODUCT_NAME = CXThreeKuTwo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		D6774AE7CC4EDB3A56D3EF2D00915A38 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -767,22 +716,6 @@
 			};
 			name = Debug;
 		};
-		EBFD9362D1D52DE4C4269AD3A5AA7172 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35A0D8E141721851B8A342048846FA13 /* CXThreeKuTwo.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CXThreeKuTwo";
-				IBSC_MODULE = CXThreeKuTwo;
-				INFOPLIST_FILE = "Target Support Files/CXThreeKuTwo/ResourceBundle-Currency.bundle-CXThreeKuTwo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = Currency.bundle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		F0B93A73A7C9BE6F45D8A0656C8AB623 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4DCF4FEA6B3DE7414DF0FBE43998D519 /* Pods-CXThreeKuTwo_Tests.release.xcconfig */;
@@ -818,55 +751,14 @@
 			};
 			name = Release;
 		};
-		F363E547657E1BC2D12B431A4BAAC5BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35A0D8E141721851B8A342048846FA13 /* CXThreeKuTwo.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CXThreeKuTwo/CXThreeKuTwo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CXThreeKuTwo/CXThreeKuTwo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CXThreeKuTwo/CXThreeKuTwo.modulemap";
-				PRODUCT_MODULE_NAME = CXThreeKuTwo;
-				PRODUCT_NAME = CXThreeKuTwo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0F8CE8D67D85FABC49197EA1A93A9943 /* Build configuration list for PBXNativeTarget "CXThreeKuTwo" */ = {
+		0AB9B441E324DFD2C9F19FA795CF0396 /* Build configuration list for PBXNativeTarget "CXThreeKuTwo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F363E547657E1BC2D12B431A4BAAC5BC /* Debug */,
-				C863D145FFE218B9112D8C6BCC2EF7F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2C805F1818FC451E281FF8AB9CCB6E1A /* Build configuration list for PBXNativeTarget "CXThreeKuTwo-Currency.bundle" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EBFD9362D1D52DE4C4269AD3A5AA7172 /* Debug */,
-				7836862A0B2AA067410CEEC63EAF2128 /* Release */,
+				D11B712D595EA6B8B810E05340D92B1A /* Debug */,
+				70EDA00AE4A32012D74BA08EB17C8569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -16,7 +16,7 @@ open class TestObject2 {
     
     public static func reduce2(_ x: Int, _ y: Int) -> Int {
         
-        return x * 45 - y
+        return x * 15 - y
     }
     
 }

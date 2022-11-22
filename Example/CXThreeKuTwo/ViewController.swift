@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import CXThreeKuTwo
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let result = TestObject2.reduce(4, 10)
+        let result2 = TestObject2.reduce2(2, 12)
+        NSLog("result::\(result) \(result2)")
     }
 
     override func didReceiveMemoryWarning() {

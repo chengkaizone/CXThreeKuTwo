@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/chengkaizone/CXThreeKuTwo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'CXThreeKuTwo/Classes/**/*'
   
@@ -39,4 +39,28 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.vendored_frameworks = [
+  'SDKs/Ads-Mediation-CN/Ads-Mediation-CN/ABUAdSDK.framework']
+  
+  s.resource_bundles = [
+  'Currency.bundle'
+  ]
+  
+  # 依赖的三方 SDK
+     # s.dependency 'AFNetworking', '~> 3.0.0'
+
+     # s.vendored_frameworks = [
+     #                          '文件夹名/xxx.framework',
+     #                          '文件夹名/frameworks/xxx.framework',
+     #                          '文件夹名/frameworks/xxx.framework',
+     #                          '文件夹名/frameworks/xxx.framework',
+     #                         ]
+     # s.resources = [
+     #                '文件夹名/xxx.bundle',
+     #                '文件夹名/resources/xxx.bundle',
+     #                '文件夹名/resources/xxx.bundle',
+     #               ]
+     
+  
 end

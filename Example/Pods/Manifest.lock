@@ -1,0 +1,16 @@
+PODS:
+  - CXThreeKuTwo (0.1.0)
+
+DEPENDENCIES:
+  - CXThreeKuTwo (from `../`)
+
+EXTERNAL SOURCES:
+  CXThreeKuTwo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CXThreeKuTwo: ae4ceba777d585be844d2300b8fca2b48488a98a
+
+PODFILE CHECKSUM: ed77ad46ab85a40841e4da4e4019512fcf653c9b
+
+COCOAPODS: 1.11.3

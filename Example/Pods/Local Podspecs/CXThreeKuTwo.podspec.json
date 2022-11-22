@@ -1,0 +1,28 @@
+{
+  "name": "CXThreeKuTwo",
+  "version": "0.1.0",
+  "summary": "A short description of CXThreeKuTwo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chengkaizone/CXThreeKuTwo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chengkaizone": "chengkaizone@163.com"
+  },
+  "source": {
+    "git": "https://github.com/chengkaizone/CXThreeKuTwo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "CXThreeKuTwo/Classes/**/*",
+  "vendored_frameworks": [
+    "SDKs/Ads-Mediation-CN/Ads-Mediation-CN/ABUAdSDK.framework"
+  ],
+  "resource_bundles": [
+    "Currency.bundle"
+  ]
+}

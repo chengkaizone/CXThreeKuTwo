@@ -1,0 +1,6 @@
+framework module Pods_CXThreeKuTwo_Tests {
+  umbrella header "Pods-CXThreeKuTwo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

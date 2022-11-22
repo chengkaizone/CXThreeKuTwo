@@ -1,0 +1,6 @@
+framework module CXThreeKuTwo {
+  umbrella header "CXThreeKuTwo-umbrella.h"
+
+  export *
+  module * { export * }
+}
